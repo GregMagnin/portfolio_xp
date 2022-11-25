@@ -1,0 +1,18 @@
+{
+  "name": "portfolio_xp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "vite": "^3.2.4",
+    "xp.css": "^0.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
