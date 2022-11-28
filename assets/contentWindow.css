@@ -1,0 +1,24 @@
+@import url(reset.css);
+
+.window {
+  display: none;
+}
+
+.window.maximize {
+    width: 100%;
+    height: 100%;
+}
+
+
+#windowMySelf.open {
+    display: block;
+    width: 30%;
+    height: 35%;
+}
+
+.window.off {
+  display: none;
+}
+#windowMyProjects.open {
+  display: block;
+}

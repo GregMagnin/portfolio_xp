@@ -114,15 +114,15 @@
           </div>
         </div>
         <div class="menuRight">
-          <div class="mySelf">
+          <div class="mySelf" id="mySelf">
             <img src="public/images/files.png" alt="files logo" />
             <p>Myself</p>
           </div>
-          <div class="myProjects">
+          <div class="myProjects" id="myProjects">
             <img src="public/images/files.png" alt="files logo" />
             <p>My Projects</p>
           </div>
-          <div class="myContact">
+          <div class="myContact" id="myContact">
             <img src="public/images/files.png" alt="files logo" />
             <p>My Contact</p>
           </div>
@@ -176,16 +176,30 @@
           </div>
         </div>
       </div>
-    <div class="bottomMenu">
-     <div class="logOff">
-      <img src="public/images/logoff.png" alt="log off icon">
-      <p>Log Off</p>
-     </div> 
-     <div class="turnOff">
-      <img src="public/images/turnoff.png" alt="Turn off icon">
-      <p>Turn Off Computer</p>
-     </div>
+      <div class="bottomMenu">
+        <div class="logOff">
+          <img src="public/images/logoff.png" alt="log off icon" />
+          <p>Log Off</p>
+        </div>
+        <div class="turnOff">
+          <img src="public/images/turnoff.png" alt="Turn off icon" />
+          <p>Turn Off Computer</p>
+        </div>
+      </div>
     </div>
+
+    <div class="window" id="windowMySelf">
+      <div class="title-bar">
+        <div class="title-bar-text">About Myself</div>
+        <div class="title-bar-controls">
+          <button id="minimize" aria-label="Minimize"></button>
+          <button id="maximize" aria-label="Maximize"></button>
+          <button id="close" aria-label="Close"></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <p>I'm <strong>Greg Magnin</strong> , a full-stack web developper from Dijon,France.</p>
+      </div>
     </div>
 
     <script src="scripts/main.js" type="module"></script>

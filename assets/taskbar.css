@@ -1,70 +1,69 @@
 @import url(reset.css);
 
 .taskbar {
-    width: 100vw;
-    height: 4vh;
-    background-color: #1E51E2;
-    position: absolute;
-    bottom: 0;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  width: 100vw;
+  height: 4vh;
+  background-color: #1e51e2;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .taskbar img {
-    width: 25px;
-    height: 25px;
-    margin: auto;
+  width: 25px;
+  height: 25px;
+  margin: auto;
 }
 
 .buttonstart img {
-width: 30px;
-height: 30px;
-margin-top: auto;
-margin-bottom: auto;
+  width: 30px;
+  height: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .buttonstart {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-family:'Tahoma', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.5rem;
-    cursor:default;
-    width: 6vw;
-    font-style: italic;
-    background-color: #3AA639;
-    padding-right: 20px;
-    padding-left: 10px;
-    border-radius: 10% 12% 8% 10% / 0% 42% 42% 0%;
-    
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Tahoma", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  cursor: default;
+  width: 6vw;
+  font-style: italic;
+  background-color: #3aa639;
+  padding-right: 20px;
+  padding-left: 10px;
+  border-radius: 10% 12% 8% 10% / 0% 42% 42% 0%;
 }
 
 .buttonstart:hover {
-    background-color: #48a846;
+  background-color: #48a846;
 }
 
 .buttonstart:active {
-    background-color: #2E822F;
+  background-color: #2e822f;
 }
 
 .listIcon {
-    display: flex;
-    flex-direction: row;
-    margin-left: 3vw;
-    margin-top: auto;
-    margin-bottom: auto;
-    gap: 7px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 3vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  gap: 7px;
 }
 
 .hour {
-display: flex;
-align-items: center;
-justify-content: flex-end;  
-width: 5vw;
-height: 4vh;
-background-color: #1A95E9;
-padding-right: 0.5vw;
-border-left: #5cace0 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 5vw;
+  height: 4vh;
+  background-color: #1a95e9;
+  padding-right: 0.5vw;
+  border-left: #5cace0 1px solid;
 }
