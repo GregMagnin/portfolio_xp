@@ -1,0 +1,425 @@
+@import url(reset.css);
+
+#windowsmenu {
+    display: none;
+}
+
+#windowsmenu.open {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+   height: 477px;
+   width: 384px;
+    position: absolute;
+    bottom: 4vh;
+    left: 0;
+    border-radius: 0 10px 0 0;
+}
+
+.windowsmenu img {
+    width: 42px;
+    height: 42px;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    background-color: #1E51E2;
+    height: 54px;
+    width: 384px; 
+    gap: 5px;
+    color: white;
+    font-family:  'Tahoma', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    align-items: center;
+    border-bottom: #da8b4e solid 1px;
+    padding-left: 5px;
+}
+
+.user:hover {
+    cursor: default;
+}
+
+
+.imgUser {
+    width: 42px;
+    height: 42px;
+    border: #b7c7dc solid 2px;
+}
+.menu {
+    display: flex;
+}
+
+.menuLeft {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 190px;
+    height: 386px;
+    padding: 6px 5px 0 0;
+    font-family: 'Tahoma', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+}
+
+
+.menuLeft img {
+    width: 30px;
+    height: 30px;
+}
+
+.menuRight img {
+    width: 30px;
+    height: 30px;
+}
+
+.internet {
+    display: flex;
+    width: 180px;
+    height: 34px;
+    gap: 2px
+}
+
+.internet:hover {
+    background-color: #3074cc;
+    cursor: default;
+}
+.internet:hover p {
+    color:white;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.desc {
+    color: #00000066
+}
+
+.email {
+    display: flex;
+    width: 180px;
+    height: 34px;
+    gap: 4px
+}
+
+.email:hover {
+    background-color: #3074cc;
+    color: white;
+    cursor: default;
+}
+
+.email:hover p{
+    color: white;
+}
+
+hr {
+    color: #e8e8e8;
+}
+
+.minesweeper {
+    display: flex;
+    width: 180px;
+    height: 34px;
+    align-items: center;
+}
+
+.minesweeper:hover {
+    background-color: #3074cc;
+    color: white;
+    cursor: default;
+}
+
+.notepad {
+    display: flex;
+    width: 180px;
+    height: 34px;
+    align-items: center;  
+}
+
+.notepad:hover {
+    background-color: #3074cc;
+    color: white;
+    cursor: default;
+}
+
+.winamp {
+    display: flex;
+    width: 180px;
+    height: 34px;
+    align-items: center;
+}
+
+.winamp:hover {
+    background-color: #3074cc;
+    color: white;
+    cursor: default;
+}
+
+.paint {
+    display: flex;
+    width: 180px;
+    height: 34px;
+    align-items: center;
+}
+
+.paint:hover {
+    background-color: #3074cc;
+    color: white;
+    cursor: default;
+}
+
+.windowsMedia {
+    display: flex;
+    width: 180px;
+    height: 34px;
+    align-items: center;
+}
+
+.windowsMedia:hover {
+    background-color: #3074cc;
+    color: white;
+    cursor: default;
+}
+
+.windowsMessenger  {
+    display: flex;
+    width: 180px;
+    height: 34px;
+    align-items: center;
+}
+
+.windowsMessenger:hover {
+    background-color: #3074cc;
+    color: white;
+    cursor: default;
+}
+
+.allprograms {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.allprograms img {
+    width: 20px;
+    height: 20px;
+    
+}
+
+.allprograms:hover {
+    background-color: #3074cc;
+    cursor: default;
+}
+
+.allprograms:hover p {
+    color: white;
+    cursor: default;
+}
+
+.menuRight {
+    display: flex;
+    flex-direction: column;
+    width: 194px;
+    height: 386px;
+    background-color: #CBE3FF;
+    padding: 6px 5px 5px;
+    font-family: 'Tahoma', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    border-right: solid 4px #1E51E2;
+}
+
+.mySelf {
+    display: flex;
+    width: 179px;
+    height: 26px;
+    align-items: center;
+    color: #00136B;
+    font-weight: 700;
+    gap: 2px
+}
+
+.myProjects {
+    display: flex;
+    width: 179px;
+    height: 26px;
+    align-items: center;
+    color: #00136B;
+    font-weight: 700;
+    gap: 2px
+}
+
+.myContact {
+    display: flex;
+    width: 179px;
+    height: 26px;
+    align-items: center;
+    color: #00136B;
+    font-weight: 700;
+    gap: 2px
+}
+
+.mySelf:hover {
+    background-color: #3074cc;
+    color: white;
+    cursor: default;
+}
+
+.myProjects:hover {
+    background-color: #3074cc;
+    color: white;
+    cursor: default;
+}
+
+.myContact:hover {
+    background-color: #3074cc;
+    color: white;
+    cursor: default;
+}
+
+.controlPanel {
+    display: flex;
+    width: 179px;
+    height: 26px;
+    align-items: center;
+    color: #00136B;
+    gap: 2px
+}
+
+.default {
+    display: flex;
+    width: 179px;
+    height: 26px;
+    align-items: center;
+    color: #00136B;
+    gap: 2px
+}
+
+.connect {
+    display: flex;
+    width: 179px;
+    height: 26px;
+    align-items: center;
+    color: #00136B;
+    gap: 2px
+}
+
+.printers {
+    display: flex;
+    width: 179px;
+    height: 26px;
+    align-items: center;
+    color: #00136B;
+    gap: 2px
+}
+
+.help {
+    display: flex;
+    width: 179px;
+    height: 26px;
+    align-items: center;
+    color: #00136B;
+    gap: 2px
+}
+
+.search {
+    display: flex;
+    width: 179px;
+    height: 26px;
+    align-items: center;
+    color: #00136B;
+    gap: 2px
+}
+
+.run {
+    display: flex;
+    width: 179px;
+    height: 26px;
+    align-items: center;
+    color: #00136B;
+    gap: 2px
+}
+
+.controlPanel:hover {
+    background-color: #3074cc;
+    color: white;
+    cursor: default;
+}
+
+.default:hover {
+    background-color: #3074cc;
+    color: white;
+    cursor: default;
+}
+
+.connect:hover {
+    background-color: #3074cc;
+    color: white;
+    cursor: default;
+}
+
+.printers:hover {
+    background-color: #3074cc;
+    color: white;
+}
+
+.help:hover {
+    background-color: #3074cc;
+    color: white;
+    cursor: default;
+}
+
+.search:hover {
+    background-color: #3074cc;
+    color: white;
+    cursor: default;
+}
+
+.run:hover {
+    background-color: #3074cc;
+    color: white;
+    cursor: default;
+}
+
+.bottomMenu {
+    display: flex;
+    width: 386px;
+    height: 36px;
+    background-color: #2072db;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: white;
+    font-family: 'Tahoma', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    gap: 10px;
+}
+
+.bottomMenu img {
+    width: 30px;
+    height: 30px;
+}
+
+.logOff {
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+.turnOff {
+    display: flex;
+    align-items: center;
+   
+    margin-right: 5px;    
+}
+
+.logOff:hover {
+    background-color: #265ad2;
+    cursor: default;
+}
+
+.turnOff:hover {
+    background-color: #265ad2;
+    cursor: default;
+}
