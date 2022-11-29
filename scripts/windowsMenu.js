@@ -1,9 +1,16 @@
 let btn = document.getElementById('buttonstart');
+let body = document.getElementById('body');
 
 
-export default btn.addEventListener('click', async (event) => {
+ btn.addEventListener('click', async (event) => {
     let menu = document.getElementById('windowsmenu');
-    menu.classList.toggle('open')
+    menu.classList.toggle('openMenu')
 
+
+   
 });
+
+
+
+
 
