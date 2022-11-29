@@ -189,7 +189,7 @@
     </div>
 
     <div class="window" id="windowMySelf">
-      <div class="title-bar">
+      <div class="title-bar" id="windowMySelfHeader">
         <div class="title-bar-text">About Myself</div>
         <div class="title-bar-controls">
           <button id="minimize" aria-label="Minimize"></button>
@@ -197,10 +197,61 @@
           <button id="close" aria-label="Close"></button>
         </div>
       </div>
+      <div class="window-body"> 
+        <div class="top">
+       <div class="buttonsTop"><p>Files</p><p>Edit</p><p>View</p><p>Favorites</p><p>Tools</p><p>Help</p></div>
+       <div class="functionTop">
+        <div class="back" disabled><img src="public/images/back.png" alt="back"> <p>Back</p></div> 
+        <img src="public/images/forward.png" alt="forward">
+        <img src="public/images/folderarrow.png" alt="folder">
+        <div class="searchTop"><img src="public/images/searchico.png" alt="search"> <p> Search</p></div>
+        <div class="folderOpen"><img src="public/images/folderopen.png" alt="folder open"> <p>Folders</p></div>
+        <img src="public/images/truc.png" alt="folder customisation">
+       </div>
+      </div>
+    <div class="leftSide">
+      <div class="systemTasks">
+        <div class="title"><p>System Tasks</p> <img src="public/images/arrowroubd.png" alt="arrow round"></div>
+        <div class="systemTasksContent">
+          <div class="systemInformation"><img src="public/images/sheet.ico" alt="sheet icon"><p>View system information</p></div>
+          <div class="removePrograms"><img src="public/images/removeprogram.png" alt="Remove programs"><p>Add or remove programs</p></div>
+          <div class="changeSetting"><img src="public/images/changesettings.png" alt="Change a setting"><p>Change a setting</p></div>
+        </div>
+      </div>
+    </div>  
+    
+    </div>
+    </div>
+
+    <div class="window" id="windowMyProjects">
+      <div class="title-bar">
+        <div class="title-bar-text">My Projects</div>
+        <div class="title-bar-controls">
+          <button id="minimizeProjects" aria-label="Minimize"></button>
+          <button id="maximizeProjects" aria-label="Maximize"></button>
+          <button id="closeProjects" aria-label="Close"></button>
+        </div>
+      </div>
       <div class="window-body">
-        <p>I'm <strong>Greg Magnin</strong> , a full-stack web developper from Dijon,France.</p>
+        <p>Page projet</p>
       </div>
     </div>
+
+    <div class="window" id="windowMyContact">
+      <div class="title-bar" >
+        <div class="title-bar-text">Contact me</div>
+        <div class="title-bar-controls">
+          <button id="minimizeContact" aria-label="Minimize"></button>
+          <button id="maximizeContact" aria-label="Maximize"></button>
+          <button id="closeContact" aria-label="Close"></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <p>Page contact</p>
+      </div>
+    </div>
+
+
 
     <script src="scripts/main.js" type="module"></script>
   </body>
