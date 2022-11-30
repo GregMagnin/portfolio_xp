@@ -2,9 +2,14 @@ import '../assets/style.css';
 import '../assets/taskbar.css';
 import '../assets/windowsMenu.css';
 import '../assets/contentWindow.css';
+import '../assets/notepadDesktop.css';
+import '../assets/notepadAboutMe.css';
 await import ('./windowsMenu');
  import './folders';
 await import ('./close');
 import './maximize';
-import './drag'
+import './drag';
+import './active';
+import './typed';
+import './openAboutMe';
 import { current_time } from "./showHour";

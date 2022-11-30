@@ -209,14 +209,12 @@
         <img src="public/images/truc.png" alt="folder customisation">
        </div>
       </div>
-    <div class="leftSide">
-      <div class="systemTasks">
-        <div class="title"><p>System Tasks</p> <img src="public/images/arrowroubd.png" alt="arrow round"></div>
-        <div class="systemTasksContent">
-          <div class="systemInformation"><img src="public/images/sheet.ico" alt="sheet icon"><p>View system information</p></div>
-          <div class="removePrograms"><img src="public/images/removeprogram.png" alt="Remove programs"><p>Add or remove programs</p></div>
-          <div class="changeSetting"><img src="public/images/changesettings.png" alt="Change a setting"><p>Change a setting</p></div>
+      <div class="contentPage">
+        <div id="notepadAbout" class="notepadAbout">
+          <img id="notepadAboutImg" src="public/images/Notepad.png" alt="Notepad"> <p id="nameAbout">Greg Magnin</p>
         </div>
+
+      </div>
       </div>
     </div>  
     
@@ -224,7 +222,7 @@
     </div>
 
     <div class="window" id="windowMyProjects">
-      <div class="title-bar">
+      <div id="windowMyProjectsHeader" class="title-bar ">
         <div class="title-bar-text">My Projects</div>
         <div class="title-bar-controls">
           <button id="minimizeProjects" aria-label="Minimize"></button>
@@ -233,12 +231,22 @@
         </div>
       </div>
       <div class="window-body">
-        <p>Page projet</p>
+        <div class="top">
+       <div class="buttonsTop"><p>Files</p><p>Edit</p><p>View</p><p>Favorites</p><p>Tools</p><p>Help</p></div>
+       <div class="functionTop">
+        <div class="back" disabled><img src="public/images/back.png" alt="back"> <p>Back</p></div> 
+        <img src="public/images/forward.png" alt="forward">
+        <img src="public/images/folderarrow.png" alt="folder">
+        <div class="searchTop"><img src="public/images/searchico.png" alt="search"> <p> Search</p></div>
+        <div class="folderOpen"><img src="public/images/folderopen.png" alt="folder open"> <p>Folders</p></div>
+        <img src="public/images/truc.png" alt="folder customisation">
+       </div>
+      </div>
       </div>
     </div>
 
     <div class="window" id="windowMyContact">
-      <div class="title-bar" >
+      <div id="windowMyContactHeader" class="title-bar " >
         <div class="title-bar-text">Contact me</div>
         <div class="title-bar-controls">
           <button id="minimizeContact" aria-label="Minimize"></button>
@@ -247,12 +255,57 @@
         </div>
       </div>
       <div class="window-body">
-        <p>Page contact</p>
+        <div class="top">
+          <div class="buttonsTop"><p>Files</p><p>Edit</p><p>View</p><p>Favorites</p><p>Tools</p><p>Help</p></div>
+          <div class="functionTop">
+           <div class="back" disabled><img src="public/images/back.png" alt="back"> <p>Back</p></div> 
+           <img src="public/images/forward.png" alt="forward">
+           <img src="public/images/folderarrow.png" alt="folder">
+           <div class="searchTop"><img src="public/images/searchico.png" alt="search"> <p> Search</p></div>
+           <div class="folderOpen"><img src="public/images/folderopen.png" alt="folder open"> <p>Folders</p></div>
+           <img src="public/images/truc.png" alt="folder customisation">
+          </div>
+         </div>
+      </div>
+    </div>
+
+    <div class="window" id="notepadDesktop">
+      <div class="title-bar">
+        <div class="title-bar-text">Where to start</div>
+        <div class="title-bar-controls">
+          <button id="minimizeNotepadDesktop" aria-label="Minimize"></button>
+          <button id="maximizeNotepadDesktop" aria-label="Maximize"></button>
+          <button id="closeNotepadDesktop" aria-label="Close"></button>
+        </div>
+      </div>
+      <div class="buttonsTopNotepad"><p>Files</p><p>Edit</p><p>View</p><p>Favorites</p><p>Tools</p><p>Help</p></div>
+      <div class="window-body containerAnimation">
+        <p><span class="startNotepad"></span></p> <br>
+      </div>
+    </div>
+
+    <div class="window" id="notepadAboutMe">
+      <div id="notepadAboutMeHeader" class="title-bar ">
+        <div class="title-bar-text">Greg Magnin</div>
+        <div class="title-bar-controls">
+          <button id="minimizeNotepadAboutMe" aria-label="Minimize"></button>
+          <button id="maximizeNotepadAboutMe" aria-label="Maximize"></button>
+          <button id="closeNotepadAboutMe" aria-label="Close"></button>
+        </div>
+      </div>
+      <div class="buttonsTopNotepad"><p>Files</p><p>Edit</p><p>View</p><p>Favorites</p><p>Tools</p><p>Help</p></div>
+      <div class="window-body aboutMe">
+        <p>Hi, i'm Greg Magnin, a full stack web developer. <br>
+        I'm passionnate by computers since my childhood and programming since i'm a teen. <br>
+        By making this portfolio to looks like Windows XP I wanted to pay homage to the OS 
+        which did start my interest for computers.
+        </p>
       </div>
     </div>
 
 
 
     <script src="scripts/main.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   </body>
 </html>

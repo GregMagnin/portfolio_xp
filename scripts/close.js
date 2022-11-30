@@ -1,6 +1,8 @@
 let closing = document.getElementById("close");
 let closingProjects = document.getElementById("closeProjects");
 let closingContact = document.getElementById("closeContact");
+let closingNotepad = document.getElementById("closeNotepadDesktop");
+let closingAboutMe = document.getElementById("closeNotepadAboutMe");
 
 
 closing.addEventListener('click', async (event) => {
@@ -20,6 +22,20 @@ closingProjects.addEventListener('click', async (event) => {
 closingContact.addEventListener('click', async (event) => {
     let contact = document.getElementById("windowMyContact");
     contact.classList.remove("maximizeContact");
+    contact.classList.remove("open");
+    contact.classList.add("off");
+})
+
+closingNotepad.addEventListener('click', async (event) => {
+    let contact = document.getElementById("notepadDesktop");
+    contact.classList.remove("maximizeNotepadDesktop");
+    contact.classList.remove("open");
+    contact.classList.add("off");
+})
+
+closingAboutMe.addEventListener('click', async (event) => {
+    let contact = document.getElementById("notepadAboutMe");
+    contact.classList.remove("maximizeNotepadAboutMe");
     contact.classList.remove("open");
     contact.classList.add("off");
 })
