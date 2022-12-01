@@ -1,0 +1,31 @@
+@import url(reset.css);
+
+body {
+  font-family: 'Tahoma', Geneva, Verdana, sans-serif;
+  background-image: url(../public/images/xp.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.iconsDesktop {
+
+margin-top: 10px;
+margin-left: 5px;
+color: white;
+
+}
+
+.iconsDesktop > * {
+  display: flex;
+flex-direction: column;
+align-items: center;
+width: 100px;
+height: 100px;
+gap: 1px;
+}
+
+.iconsDesktop img {
+  width: 40px;
+  height: 40px;
+}

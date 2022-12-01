@@ -130,12 +130,19 @@
   overflow: none;
 }
 
-.notepadAbout img {
+.window-body img {
 width: 40px;
 height: 40px;
 }
 
 .notepadAbout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: default;
+}
+
+.notepadLinks {
   display: flex;
   flex-direction: column;
   align-items: center;

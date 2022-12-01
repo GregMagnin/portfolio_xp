@@ -1,4 +1,4 @@
-import '../assets/style.css';
+import '../assets/desktop.css';
 import '../assets/taskbar.css';
 import '../assets/windowsMenu.css';
 import '../assets/contentWindow.css';
